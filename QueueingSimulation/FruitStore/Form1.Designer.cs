@@ -75,7 +75,7 @@
             this.btnEnqueue.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEnqueue.Font = new System.Drawing.Font("Arial Unicode MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnqueue.ForeColor = System.Drawing.Color.SpringGreen;
-            this.btnEnqueue.Location = new System.Drawing.Point(184, 482);
+            this.btnEnqueue.Location = new System.Drawing.Point(184, 514);
             this.btnEnqueue.Name = "btnEnqueue";
             this.btnEnqueue.Size = new System.Drawing.Size(132, 36);
             this.btnEnqueue.TabIndex = 0;
@@ -91,7 +91,7 @@
             this.btnDequeue.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDequeue.Font = new System.Drawing.Font("Arial Unicode MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDequeue.ForeColor = System.Drawing.Color.SpringGreen;
-            this.btnDequeue.Location = new System.Drawing.Point(341, 482);
+            this.btnDequeue.Location = new System.Drawing.Point(341, 514);
             this.btnDequeue.Name = "btnDequeue";
             this.btnDequeue.Size = new System.Drawing.Size(132, 36);
             this.btnDequeue.TabIndex = 1;
@@ -101,14 +101,14 @@
             // 
             // panelQueue
             // 
-            this.panelQueue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panelQueue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelQueue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(213)))), ((int)(((byte)(212)))));
+            this.panelQueue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelQueue.FlowDirection = System.Windows.Forms.FlowDirection.BottomUp;
-            this.panelQueue.Location = new System.Drawing.Point(70, 72);
+            this.panelQueue.Location = new System.Drawing.Point(70, 104);
             this.panelQueue.Margin = new System.Windows.Forms.Padding(0);
             this.panelQueue.Name = "panelQueue";
             this.panelQueue.Padding = new System.Windows.Forms.Padding(5);
-            this.panelQueue.Size = new System.Drawing.Size(486, 391);
+            this.panelQueue.Size = new System.Drawing.Size(488, 391);
             this.panelQueue.TabIndex = 2;
             // 
             // tableLayoutPanel1
@@ -133,7 +133,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label16, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.label17, 0, 0);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Sinkin Sans 600 SemiBold", 9F, System.Drawing.FontStyle.Bold);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(569, 72);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(569, 104);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
@@ -353,7 +353,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.OliveDrab;
-            this.panel2.Location = new System.Drawing.Point(574, 77);
+            this.panel2.Location = new System.Drawing.Point(574, 109);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(169, 226);
             this.panel2.TabIndex = 7;
@@ -363,7 +363,7 @@
             this.panel1.BackColor = System.Drawing.Color.PowderBlue;
             this.panel1.Controls.Add(this.lbl_total);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(569, 313);
+            this.panel1.Location = new System.Drawing.Point(569, 345);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(169, 67);
             this.panel1.TabIndex = 8;
@@ -394,7 +394,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.panel3.Location = new System.Drawing.Point(574, 317);
+            this.panel3.Location = new System.Drawing.Point(574, 349);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(169, 67);
             this.panel3.TabIndex = 17;
@@ -405,7 +405,7 @@
             this.pictureBox1.Image = global::FruitStore.Properties.Resources.fruit__Small_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 567);
+            this.pictureBox1.Size = new System.Drawing.Size(800, 592);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -415,7 +415,7 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(255)))), ((int)(((byte)(132)))));
             this.panel4.Controls.Add(this.lbl_totalcustomers);
             this.panel4.Controls.Add(this.label18);
-            this.panel4.Location = new System.Drawing.Point(570, 392);
+            this.panel4.Location = new System.Drawing.Point(570, 424);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(169, 67);
             this.panel4.TabIndex = 18;
@@ -446,22 +446,22 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(76)))), ((int)(((byte)(28)))));
-            this.panel5.Location = new System.Drawing.Point(575, 396);
+            this.panel5.Location = new System.Drawing.Point(575, 428);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(169, 67);
             this.panel5.TabIndex = 19;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.BurlyWood;
+            this.panel6.BackColor = System.Drawing.Color.White;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label2);
             this.panel6.Controls.Add(this.label19);
             this.panel6.Controls.Add(this.label20);
             this.panel6.ForeColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(70, 34);
+            this.panel6.Location = new System.Drawing.Point(70, 67);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(486, 31);
+            this.panel6.Size = new System.Drawing.Size(488, 31);
             this.panel6.TabIndex = 20;
             // 
             // label2
@@ -471,7 +471,7 @@
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
-            this.label2.Size = new System.Drawing.Size(137, 29);
+            this.label2.Size = new System.Drawing.Size(180, 29);
             this.label2.TabIndex = 3;
             this.label2.Text = "Customer Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -480,9 +480,9 @@
             // 
             this.label19.Dock = System.Windows.Forms.DockStyle.Right;
             this.label19.Font = new System.Drawing.Font("Sinkin Sans 600 SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(137, 0);
+            this.label19.Location = new System.Drawing.Point(180, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(240, 29);
+            this.label19.Size = new System.Drawing.Size(199, 29);
             this.label19.TabIndex = 4;
             this.label19.Text = "Orders";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -491,7 +491,7 @@
             // 
             this.label20.Dock = System.Windows.Forms.DockStyle.Right;
             this.label20.Font = new System.Drawing.Font("Sinkin Sans 600 SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(377, 0);
+            this.label20.Location = new System.Drawing.Point(379, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(107, 29);
             this.label20.TabIndex = 5;
@@ -502,7 +502,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 567);
+            this.ClientSize = new System.Drawing.Size(800, 592);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);

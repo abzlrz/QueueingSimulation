@@ -11,7 +11,6 @@ namespace FruitStore
         public Form1()
         {
             InitializeComponent();
-            this.panelQueue.BackColor = Color.FromArgb(45, Color.Gray);
         }
 
         private void btnEnqueue_Click(object sender, EventArgs e)
