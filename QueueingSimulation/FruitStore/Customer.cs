@@ -16,11 +16,14 @@ namespace FruitStore
         private string[] q = { "Apple", "Orange", "Banana", "Mango", "Papaya", "Lemon", "Melon" };
 
         public double TotalOrderPrice = 0;
+        public double WaitingTime = 0;
 
         public Customer()
         {
-            this.gen = new Generator();
             InitializeComponent();
+
+            this.timer.Start();
+            this.gen = new Generator();
 
             var rand = new Random();
 
@@ -35,6 +38,10 @@ namespace FruitStore
                 rand.Next(100, 255), 
                 rand.Next(100, 255));
             this.TotalOrderPrice = CalculateTotalPrice(cart);
+        }
+        ~Customer()
+        {
+            this.timer.Stop();
         }
 
         private double CalculateTotalPrice(string orders)
@@ -62,5 +69,11 @@ namespace FruitStore
 
             return price;
         }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            this.WaitingTime += 0.1;
+        }
+
     }
 }

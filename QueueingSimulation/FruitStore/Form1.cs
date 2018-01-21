@@ -14,7 +14,7 @@ namespace FruitStore
         }
 
         private void btnEnqueue_Click(object sender, EventArgs e)
-        { 
+        {
             var cust = new Customer();
 
             this.panelQueue.Controls.Add(cust);
@@ -50,6 +50,11 @@ namespace FruitStore
         {
             btnDequeue.Enabled = true;
             btnEnqueue.Enabled = true;
+        }
+
+        private void btn_little_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Average Queue Size: \t {10}\nAverage Number of Customer");
         }
     }
 }
